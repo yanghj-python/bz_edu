@@ -8,13 +8,24 @@
                 <ul class="nav full-left">
                     <li v-for="nav in nav_list" v-if="nav.position==1"><span>{{nav.title}}</span></li>
                 </ul>
-                <div class="login-bar full-right">
+                <div class="login-bar full-right" v-if="token">
                     <div class="shop-cart full-left">
                         <img src="/static/image/" alt="">
                         <span><router-link to="/cart">购物车</router-link></span>
                     </div>
                     <div class="login-box full-left">
-                        <span>登录</span>
+                        <router-link to="/home/login/">个人中心</router-link>
+                        &nbsp;|&nbsp;
+                        <el-button type="danger" @click="logout">退出登录</el-button>
+                    </div>
+                </div>
+                <div class="login-bar full-right" v-else>
+                    <div class="shop-cart full-left">
+                        <img src="/static/image/" alt="">
+                        <span><router-link to="/cart">购物车</router-link></span>
+                    </div>
+                    <div class="login-box full-left">
+                        <router-link to="/home/login/">登录</router-link>
                         &nbsp;|&nbsp;
                         <span>注册</span>
                     </div>
@@ -30,9 +41,13 @@
         data(){
             return{
                 nav_list:[],
+                token: "",
             }
         },
         methods:{
+            get_token() {
+                this.token = localStorage.user_token || sessionStorage.user_token;
+            },
             get_all_nav(){
                 this.$axios({
                     url:'http://127.0.0.1:9001/home/nav/',
@@ -45,11 +60,18 @@
                     console.log(error);
                 })
             },
+            logout(){
+                localStorage.clear();
+                sessionStorage.clear();
+                this.$router.push("/home/login");
+            }
         },
         // 在当前页面渲染之前将数据获取并赋值给 data
         created() {
             // 获取轮播图数据
             this.get_all_nav();
+            this.get_token();
+
         }
     }
 </script>

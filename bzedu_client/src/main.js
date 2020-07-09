@@ -17,6 +17,7 @@ Vue.use(Element);
 
 import settings from "./settings";
 Vue.prototype.$settings = settings;
+import "../static/js/gt.js"
 
 // 全局css
 import "../static/css/global.css"
