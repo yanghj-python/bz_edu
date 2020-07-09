@@ -256,3 +256,412 @@ INFO 2020-07-09 00:00:55,843 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 673
 INFO 2020-07-09 00:00:55,843 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 230
 INFO 2020-07-09 00:00:55,861 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 673
 INFO 2020-07-09 00:01:07,474 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6532
+INFO 2020-07-09 16:49:43,330 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-09 16:49:53,080 log 228 Not Found: /
+WARNING 2020-07-09 16:49:53,081 basehttp 157 "GET / HTTP/1.1" 404 2150
+WARNING 2020-07-09 16:49:53,476 log 228 Not Found: /favicon.ico
+WARNING 2020-07-09 16:49:53,477 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2201
+INFO 2020-07-09 16:50:04,544 basehttp 157 "GET /admin/ HTTP/1.1" 200 7035
+INFO 2020-07-09 16:50:17,100 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4785
+INFO 2020-07-09 16:50:17,266 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:50:22,240 basehttp 157 "GET /admin/home/banner/3/change/ HTTP/1.1" 200 6610
+INFO 2020-07-09 16:50:22,348 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:50:40,946 basehttp 157 "POST /admin/home/banner/3/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:50:41,033 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4975
+INFO 2020-07-09 16:50:41,103 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:50:42,976 basehttp 157 "GET /admin/home/banner/3/change/ HTTP/1.1" 200 6618
+INFO 2020-07-09 16:50:43,031 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:50:45,461 basehttp 157 "POST /admin/home/banner/3/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:50:45,548 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4975
+INFO 2020-07-09 16:50:45,591 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:50:47,621 basehttp 157 "GET /admin/home/banner/2/change/ HTTP/1.1" 200 6614
+INFO 2020-07-09 16:50:47,669 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:51:00,531 basehttp 157 "POST /admin/home/banner/2/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:51:00,596 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4975
+INFO 2020-07-09 16:51:00,632 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:51:02,531 basehttp 157 "GET /admin/home/banner/1/change/ HTTP/1.1" 200 6616
+INFO 2020-07-09 16:51:02,578 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:51:11,165 basehttp 157 "POST /admin/home/banner/1/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:51:11,231 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4978
+INFO 2020-07-09 16:51:11,286 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:51:16,913 basehttp 157 "GET /admin/home/banner/1/change/ HTTP/1.1" 200 6624
+INFO 2020-07-09 16:51:19,677 basehttp 157 "GET /admin/ HTTP/1.1" 200 7052
+INFO 2020-07-09 16:51:21,855 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6532
+INFO 2020-07-09 16:51:21,914 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:51:23,730 basehttp 157 "GET /admin/home/nav/11/change/ HTTP/1.1" 200 6971
+INFO 2020-07-09 16:51:23,776 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:51:43,904 basehttp 157 "POST /admin/home/nav/11/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:51:44,020 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6723
+INFO 2020-07-09 16:51:44,078 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:51:46,218 basehttp 157 "GET /admin/home/nav/10/change/ HTTP/1.1" 200 6971
+INFO 2020-07-09 16:51:46,265 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:51:52,743 basehttp 157 "POST /admin/home/nav/10/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:51:52,826 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6723
+INFO 2020-07-09 16:51:52,874 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:51:55,053 basehttp 157 "GET /admin/home/nav/9/change/ HTTP/1.1" 200 6968
+INFO 2020-07-09 16:51:55,151 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:51:59,069 basehttp 157 "POST /admin/home/nav/9/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:51:59,143 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6722
+INFO 2020-07-09 16:51:59,196 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:00,965 basehttp 157 "GET /admin/home/nav/8/change/ HTTP/1.1" 200 6972
+INFO 2020-07-09 16:52:01,014 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:08,711 basehttp 157 "POST /admin/home/nav/8/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:52:08,786 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6722
+INFO 2020-07-09 16:52:08,890 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:10,515 basehttp 157 "GET /admin/home/nav/7/change/ HTTP/1.1" 200 6968
+INFO 2020-07-09 16:52:10,564 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:14,739 basehttp 157 "POST /admin/home/nav/7/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:52:14,842 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6722
+INFO 2020-07-09 16:52:14,926 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:16,387 basehttp 157 "GET /admin/home/nav/6/change/ HTTP/1.1" 200 6972
+INFO 2020-07-09 16:52:16,496 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:23,390 basehttp 157 "POST /admin/home/nav/6/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:52:23,521 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6722
+INFO 2020-07-09 16:52:23,567 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:25,525 basehttp 157 "GET /admin/home/nav/5/change/ HTTP/1.1" 200 6968
+INFO 2020-07-09 16:52:25,577 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:30,153 basehttp 157 "POST /admin/home/nav/5/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:52:30,262 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6722
+INFO 2020-07-09 16:52:30,306 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:33,488 basehttp 157 "GET /admin/home/nav/5/change/ HTTP/1.1" 200 6976
+INFO 2020-07-09 16:52:33,541 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:43,795 basehttp 157 "POST /admin/home/nav/5/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:52:43,901 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6722
+INFO 2020-07-09 16:52:43,947 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:46,450 basehttp 157 "GET /admin/home/nav/4/change/ HTTP/1.1" 200 6968
+INFO 2020-07-09 16:52:46,503 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:50,393 basehttp 157 "POST /admin/home/nav/4/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:52:50,470 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6722
+INFO 2020-07-09 16:52:50,516 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:52,298 basehttp 157 "GET /admin/home/nav/3/change/ HTTP/1.1" 200 6962
+INFO 2020-07-09 16:52:52,338 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:56,333 basehttp 157 "POST /admin/home/nav/3/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:52:56,460 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6719
+INFO 2020-07-09 16:52:56,509 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:52:58,924 basehttp 157 "GET /admin/home/nav/2/change/ HTTP/1.1" 200 6968
+INFO 2020-07-09 16:52:58,967 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:53:07,706 basehttp 157 "POST /admin/home/nav/2/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:53:07,866 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6720
+INFO 2020-07-09 16:53:07,917 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:53:10,814 basehttp 157 "GET /admin/home/nav/1/change/ HTTP/1.1" 200 6956
+INFO 2020-07-09 16:53:10,871 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:53:17,709 basehttp 157 "POST /admin/home/nav/1/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 16:53:17,791 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6716
+INFO 2020-07-09 16:53:17,851 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 16:53:29,531 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\apps\home\views.py changed, reloading.
+INFO 2020-07-09 16:53:31,680 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 17:06:27,496 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 17:06:27,579 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 253
+INFO 2020-07-09 17:06:27,593 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 17:06:28,150 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 17:06:28,161 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 253
+INFO 2020-07-09 17:06:28,175 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 17:06:28,198 basehttp 157 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-07-09 17:06:28,199 basehttp 157 "GET /media/banner/02.png HTTP/1.1" 304 0
+INFO 2020-07-09 17:06:28,200 basehttp 157 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-09 17:07:16,243 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6532
+INFO 2020-07-09 17:13:52,570 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\settings\develop.py changed, reloading.
+INFO 2020-07-09 17:13:59,113 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 17:14:31,951 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\settings\develop.py changed, reloading.
+INFO 2020-07-09 17:14:33,817 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 17:16:24,283 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\settings\develop.py changed, reloading.
+INFO 2020-07-09 17:16:26,553 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 17:24:46,338 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\settings\develop.py changed, reloading.
+INFO 2020-07-09 17:24:51,550 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 17:25:32,323 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\settings\develop.py changed, reloading.
+INFO 2020-07-09 17:25:34,418 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 17:29:10,161 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\settings\develop.py changed, reloading.
+INFO 2020-07-09 17:29:12,035 autoreload 598 Watching for file changes with StatReloader
+ERROR 2020-07-09 17:30:20,838 exceptions 18 <home.views.NavListAPIView object at 0x0000028E1EF0E8C8> GET (1146, "Table 'edu_bz.bz_nav' doesn't exist")
+ERROR 2020-07-09 17:30:20,841 log 228 Internal Server Error: /home/nav/
+ERROR 2020-07-09 17:30:20,842 basehttp 157 "GET /home/nav/ HTTP/1.1" 500 56
+ERROR 2020-07-09 17:30:20,846 exceptions 18 <home.views.BannerListAPIView object at 0x0000028E1EF78DC8> GET (1146, "Table 'edu_bz.bz_banner' doesn't exist")
+ERROR 2020-07-09 17:30:20,847 log 228 Internal Server Error: /home/banner/
+ERROR 2020-07-09 17:30:20,848 basehttp 157 "GET /home/banner/ HTTP/1.1" 500 56
+ERROR 2020-07-09 17:30:20,945 exceptions 18 <home.views.NavListAPIView object at 0x0000028E1EE43B48> GET (1146, "Table 'edu_bz.bz_nav' doesn't exist")
+ERROR 2020-07-09 17:30:20,946 log 228 Internal Server Error: /home/nav/
+ERROR 2020-07-09 17:30:20,947 basehttp 157 "GET /home/nav/ HTTP/1.1" 500 56
+INFO 2020-07-09 17:34:11,134 autoreload 222 D:\virtual_python\virtual_web\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py changed, reloading.
+INFO 2020-07-09 17:34:12,883 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 17:36:23,595 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\settings\develop.py changed, reloading.
+INFO 2020-07-09 17:36:25,568 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 17:37:28,156 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\settings\develop.py changed, reloading.
+INFO 2020-07-09 17:37:29,848 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 17:39:41,658 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\apps\home\migrations\0001_initial.py changed, reloading.
+INFO 2020-07-09 17:39:43,310 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 17:42:14,217 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\settings\develop.py changed, reloading.
+INFO 2020-07-09 17:42:16,014 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 17:46:11,254 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-09 17:46:16,294 log 228 Not Found: /
+WARNING 2020-07-09 17:46:16,295 basehttp 157 "GET / HTTP/1.1" 404 2150
+INFO 2020-07-09 17:47:13,637 basehttp 157 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-07-09 17:47:14,321 basehttp 157 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+INFO 2020-07-09 17:47:23,250 basehttp 157 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-07-09 17:47:23,310 basehttp 157 "GET /admin/ HTTP/1.1" 200 3706
+INFO 2020-07-09 17:47:32,151 basehttp 157 "GET /admin/home/banner/add/ HTTP/1.1" 200 6265
+INFO 2020-07-09 17:47:32,309 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 17:48:24,232 basehttp 157 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 17:48:24,386 basehttp 157 "GET /admin/home/banner/add/ HTTP/1.1" 200 6490
+INFO 2020-07-09 17:48:24,490 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 17:57:35,818 basehttp 157 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 17:57:35,925 basehttp 157 "GET /admin/home/banner/add/ HTTP/1.1" 200 6493
+INFO 2020-07-09 17:57:35,985 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:16:46,594 basehttp 157 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:16:46,726 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4973
+INFO 2020-07-09 18:16:46,837 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:17:02,685 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 2
+INFO 2020-07-09 18:17:02,696 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 2
+INFO 2020-07-09 18:17:02,761 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 186
+INFO 2020-07-09 18:17:02,871 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 200 737783
+INFO 2020-07-09 18:17:02,872 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 200 745382
+INFO 2020-07-09 18:17:51,459 basehttp 157 "GET /admin/home/banner/3/change/ HTTP/1.1" 200 6626
+INFO 2020-07-09 18:17:51,516 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:17:57,682 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4785
+INFO 2020-07-09 18:17:59,214 basehttp 157 "GET /admin/home/banner/2/change/ HTTP/1.1" 200 6643
+INFO 2020-07-09 18:17:59,253 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:18:01,773 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4785
+INFO 2020-07-09 18:18:03,250 basehttp 157 "GET /admin/home/banner/1/change/ HTTP/1.1" 200 6634
+INFO 2020-07-09 18:18:03,302 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:18:12,889 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4785
+INFO 2020-07-09 18:18:14,484 basehttp 157 "GET /admin/home/banner/2/change/ HTTP/1.1" 200 6643
+INFO 2020-07-09 18:18:14,595 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:18:17,892 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4785
+INFO 2020-07-09 18:18:19,188 basehttp 157 "GET /admin/home/banner/3/change/ HTTP/1.1" 200 6626
+INFO 2020-07-09 18:18:19,238 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:18:25,277 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4785
+INFO 2020-07-09 18:33:28,758 basehttp 157 "GET /admin/home/banner/3/change/ HTTP/1.1" 200 6626
+INFO 2020-07-09 18:33:28,810 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:33:36,246 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4785
+INFO 2020-07-09 18:33:38,120 basehttp 157 "GET /admin/home/banner/2/change/ HTTP/1.1" 200 6643
+INFO 2020-07-09 18:33:38,192 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:33:40,330 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4785
+INFO 2020-07-09 18:33:41,441 basehttp 157 "GET /admin/home/banner/1/change/ HTTP/1.1" 200 6634
+INFO 2020-07-09 18:33:41,513 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:33:45,593 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4785
+INFO 2020-07-09 18:33:47,170 basehttp 157 "GET /admin/home/banner/2/change/ HTTP/1.1" 200 6643
+INFO 2020-07-09 18:33:47,231 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:33:49,399 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4785
+INFO 2020-07-09 18:33:50,463 basehttp 157 "GET /admin/home/banner/3/change/ HTTP/1.1" 200 6626
+INFO 2020-07-09 18:33:50,511 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:33:53,037 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4785
+INFO 2020-07-09 18:33:57,373 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 2
+INFO 2020-07-09 18:33:57,396 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 186
+INFO 2020-07-09 18:33:57,436 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 2
+INFO 2020-07-09 18:33:57,525 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 304 0
+INFO 2020-07-09 18:33:57,526 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 304 0
+INFO 2020-07-09 18:40:58,487 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 2
+INFO 2020-07-09 18:40:58,497 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 186
+INFO 2020-07-09 18:40:58,519 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 2
+INFO 2020-07-09 18:40:58,563 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 304 0
+INFO 2020-07-09 18:40:58,565 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 304 0
+INFO 2020-07-09 18:41:13,394 basehttp 157 "GET /admin/home/banner/3/change/ HTTP/1.1" 200 6626
+INFO 2020-07-09 18:41:13,449 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:41:36,968 basehttp 157 "POST /admin/home/banner/3/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:41:37,091 basehttp 157 "GET /admin/home/banner/ HTTP/1.1" 200 4975
+INFO 2020-07-09 18:41:37,163 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:41:41,033 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 2
+INFO 2020-07-09 18:41:41,116 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 2
+INFO 2020-07-09 18:41:41,212 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 18:41:41,418 basehttp 157 "GET /media/banner/02_cS3rhVF.png HTTP/1.1" 200 364808
+INFO 2020-07-09 18:42:04,753 basehttp 157 "GET /admin/ HTTP/1.1" 200 4897
+INFO 2020-07-09 18:42:08,611 basehttp 157 "GET /admin/home/nav/add/ HTTP/1.1" 200 6702
+INFO 2020-07-09 18:42:08,678 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:42:28,998 basehttp 157 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:42:29,144 basehttp 157 "GET /admin/home/nav/add/ HTTP/1.1" 200 6921
+INFO 2020-07-09 18:42:29,206 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:42:48,231 basehttp 157 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:42:48,309 basehttp 157 "GET /admin/home/nav/add/ HTTP/1.1" 200 6925
+INFO 2020-07-09 18:42:48,479 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:47:25,363 basehttp 157 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:47:25,486 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 4950
+INFO 2020-07-09 18:47:25,567 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:47:30,611 basehttp 157 "GET /admin/home/nav/3/change/ HTTP/1.1" 200 6970
+INFO 2020-07-09 18:47:30,662 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:47:32,922 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 4765
+INFO 2020-07-09 18:47:34,382 basehttp 157 "GET /admin/home/nav/2/change/ HTTP/1.1" 200 6959
+INFO 2020-07-09 18:47:34,429 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:47:41,450 basehttp 157 "POST /admin/home/nav/2/change/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:47:41,559 basehttp 157 "GET /admin/home/nav/add/ HTTP/1.1" 200 6927
+INFO 2020-07-09 18:47:41,598 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:49:13,846 basehttp 157 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:49:13,975 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 5167
+INFO 2020-07-09 18:49:14,049 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:49:26,872 basehttp 157 "GET /admin/home/nav/add/ HTTP/1.1" 200 6702
+INFO 2020-07-09 18:49:27,005 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:49:57,349 basehttp 157 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:49:57,417 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 5390
+INFO 2020-07-09 18:49:57,468 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:50:59,642 basehttp 157 "GET /admin/home/nav/add/ HTTP/1.1" 200 6702
+INFO 2020-07-09 18:50:59,728 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:51:16,198 basehttp 157 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:51:16,254 basehttp 157 "GET /admin/home/nav/add/ HTTP/1.1" 200 6927
+INFO 2020-07-09 18:51:16,294 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:51:40,574 basehttp 157 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:51:40,635 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 5830
+INFO 2020-07-09 18:51:40,683 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:51:45,905 basehttp 157 "GET /admin/home/nav/6/change/ HTTP/1.1" 200 6971
+INFO 2020-07-09 18:51:45,947 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:51:52,663 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 5642
+INFO 2020-07-09 18:51:56,011 basehttp 157 "GET /admin/home/nav/add/ HTTP/1.1" 200 6702
+INFO 2020-07-09 18:51:56,063 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:52:16,543 basehttp 157 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:52:16,598 basehttp 157 "GET /admin/home/nav/add/ HTTP/1.1" 200 6927
+INFO 2020-07-09 18:52:16,636 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:52:40,806 basehttp 157 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:52:40,862 basehttp 157 "GET /admin/home/nav/add/ HTTP/1.1" 200 6927
+INFO 2020-07-09 18:52:40,899 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:53:09,124 basehttp 157 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:53:09,184 basehttp 157 "GET /admin/home/nav/add/ HTTP/1.1" 200 6928
+INFO 2020-07-09 18:53:09,222 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:55:39,125 basehttp 157 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 18:55:39,202 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6718
+INFO 2020-07-09 18:55:39,239 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 18:55:44,573 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 18:55:44,581 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 18:55:44,635 basehttp 157 "GET /media/banner/02_cS3rhVF.png HTTP/1.1" 304 0
+INFO 2020-07-09 18:55:44,641 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 18:55:44,651 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 304 0
+INFO 2020-07-09 18:55:44,651 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 304 0
+INFO 2020-07-09 20:02:50,008 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 20:03:47,388 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 20:05:16,839 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 20:10:34,333 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 20:10:34,562 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 20:10:34,628 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 20:10:34,909 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 304 0
+INFO 2020-07-09 20:10:34,911 basehttp 157 "GET /media/banner/02_cS3rhVF.png HTTP/1.1" 304 0
+INFO 2020-07-09 20:10:34,913 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 304 0
+INFO 2020-07-09 20:10:46,747 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 20:10:46,766 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 20:10:46,889 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 20:10:47,727 basehttp 157 "GET /admin/home/nav/ HTTP/1.1" 200 6529
+INFO 2020-07-09 20:15:53,696 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\apps\user\admin.py changed, reloading.
+INFO 2020-07-09 20:16:13,119 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 20:16:25,859 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-09 20:16:29,769 log 228 Not Found: /
+WARNING 2020-07-09 20:16:29,770 basehttp 157 "GET / HTTP/1.1" 404 2150
+INFO 2020-07-09 20:16:37,217 basehttp 157 "GET /admin/ HTTP/1.1" 200 7288
+INFO 2020-07-09 20:16:42,220 basehttp 157 "GET /admin/user/userinfo/add/ HTTP/1.1" 200 14341
+INFO 2020-07-09 20:16:42,468 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 20:16:42,555 basehttp 157 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20232
+INFO 2020-07-09 20:16:42,624 basehttp 157 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2020-07-09 20:16:42,879 basehttp 157 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2020-07-09 20:16:42,884 basehttp 157 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2020-07-09 20:17:23,551 basehttp 157 "POST /admin/user/userinfo/add/ HTTP/1.1" 302 0
+INFO 2020-07-09 20:17:23,811 basehttp 157 "GET /admin/user/userinfo/ HTTP/1.1" 200 4744
+INFO 2020-07-09 20:17:23,924 basehttp 157 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-07-09 20:21:59,736 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\urls.py changed, reloading.
+INFO 2020-07-09 20:22:06,522 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 20:29:05,246 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 20:32:38,427 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\apps\user\views.py changed, reloading.
+INFO 2020-07-09 20:32:42,173 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 20:40:29,493 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-09 20:40:41,991 log 228 Not Found: /
+WARNING 2020-07-09 20:40:41,992 basehttp 157 "GET / HTTP/1.1" 404 2255
+INFO 2020-07-09 20:40:53,416 basehttp 157 "GET /user/login HTTP/1.1" 301 0
+WARNING 2020-07-09 20:40:53,919 log 228 Method Not Allowed: /user/login/
+WARNING 2020-07-09 20:40:53,921 basehttp 157 "GET /user/login/ HTTP/1.1" 405 7693
+INFO 2020-07-09 20:40:54,070 basehttp 157 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2020-07-09 20:40:54,092 basehttp 157 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2020-07-09 20:40:54,097 basehttp 157 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2020-07-09 20:40:54,098 basehttp 157 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2020-07-09 20:40:54,101 basehttp 157 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2020-07-09 20:40:54,124 basehttp 157 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2020-07-09 20:40:54,153 basehttp 157 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2020-07-09 20:40:54,160 basehttp 157 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2020-07-09 20:40:54,167 basehttp 157 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2020-07-09 20:40:54,208 basehttp 157 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2020-07-09 20:40:54,214 basehttp 157 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+WARNING 2020-07-09 20:41:06,289 log 228 Bad Request: /user/login/
+WARNING 2020-07-09 20:41:06,290 basehttp 157 "POST /user/login/ HTTP/1.1" 400 7728
+WARNING 2020-07-09 20:41:39,183 log 228 Bad Request: /user/login/
+WARNING 2020-07-09 20:41:39,184 basehttp 157 "POST /user/login/ HTTP/1.1" 400 7731
+WARNING 2020-07-09 20:41:46,601 log 228 Bad Request: /user/login/
+WARNING 2020-07-09 20:41:46,602 basehttp 157 "POST /user/login/ HTTP/1.1" 400 7731
+WARNING 2020-07-09 20:43:08,280 log 228 Bad Request: /user/login/
+WARNING 2020-07-09 20:43:08,282 basehttp 157 "POST /user/login/ HTTP/1.1" 400 7728
+INFO 2020-07-09 20:43:40,561 basehttp 157 "POST /user/login/ HTTP/1.1" 200 7892
+INFO 2020-07-09 20:44:05,161 basehttp 157 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-09 20:44:14,635 basehttp 157 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-09 20:58:48,333 basehttp 157 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-09 20:59:56,551 autoreload 222 C:\Users\Ñîºé¾Ù\PycharmProjects\bz\bz_edu\bz_edu\settings\develop.py changed, reloading.
+INFO 2020-07-09 21:00:03,970 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 21:00:15,233 basehttp 157 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+WARNING 2020-07-09 21:05:03,911 log 228 Bad Request: /user/captcha/
+WARNING 2020-07-09 21:05:03,912 basehttp 157 "GET /user/captcha/?username= HTTP/1.1" 400 29
+INFO 2020-07-09 21:05:18,156 basehttp 157 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-09 21:07:37,721 basehttp 157 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-09 21:07:38,079 basehttp 157 "POST /user/login/ HTTP/1.1" 200 222
+INFO 2020-07-09 21:07:38,409 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 21:07:38,422 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:07:38,489 basehttp 157 "GET /media/banner/02_cS3rhVF.png HTTP/1.1" 304 0
+INFO 2020-07-09 21:07:38,492 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 304 0
+INFO 2020-07-09 21:07:38,493 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 304 0
+INFO 2020-07-09 21:07:38,607 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:09:06,096 basehttp 157 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-09 21:09:06,612 basehttp 157 "POST /user/login/ HTTP/1.1" 200 222
+INFO 2020-07-09 21:09:07,007 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:09:07,008 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:09:07,045 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 21:09:07,121 basehttp 157 "GET /media/banner/02_cS3rhVF.png HTTP/1.1" 200 364808
+INFO 2020-07-09 21:09:07,138 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 200 745382
+INFO 2020-07-09 21:09:07,143 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 200 737783
+INFO 2020-07-09 21:24:15,343 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 21:24:15,467 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:24:15,504 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:24:15,634 basehttp 157 "GET /media/banner/02_cS3rhVF.png HTTP/1.1" 304 0
+INFO 2020-07-09 21:24:31,848 basehttp 157 "POST /user/login/ HTTP/1.1" 200 222
+INFO 2020-07-09 21:24:31,995 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:24:32,013 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 21:24:32,096 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:24:42,623 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:24:42,662 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:24:42,691 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 21:25:30,322 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:25:30,330 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 21:25:30,366 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:25:42,005 basehttp 157 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-09 21:25:56,690 basehttp 157 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-09 21:25:56,703 basehttp 157 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-09 21:25:57,017 basehttp 157 "POST /user/login/ HTTP/1.1" 200 222
+INFO 2020-07-09 21:25:57,136 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 21:25:57,182 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 21:25:57,401 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:14:32,869 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:14:32,966 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 22:14:32,996 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:14:33,034 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 304 0
+INFO 2020-07-09 22:14:33,117 basehttp 157 "GET /media/banner/02_cS3rhVF.png HTTP/1.1" 304 0
+INFO 2020-07-09 22:14:33,119 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 304 0
+INFO 2020-07-09 22:16:10,010 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:16:10,049 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:16:10,094 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 22:16:19,384 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 22:16:19,444 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:16:19,480 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:22:04,842 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 22:22:04,858 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:22:04,893 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:22:27,298 basehttp 157 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-09 22:22:34,087 basehttp 157 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-09 22:22:34,096 basehttp 157 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-09 22:22:34,101 basehttp 157 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-09 22:22:34,280 basehttp 157 "POST /user/login/ HTTP/1.1" 200 222
+INFO 2020-07-09 22:22:34,350 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 22:22:34,362 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:22:34,382 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:30:08,223 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:30:11,751 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:30:11,799 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:30:12,179 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 22:30:45,393 basehttp 157 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-09 22:30:52,457 basehttp 157 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-09 22:30:52,463 basehttp 157 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-09 22:30:52,468 basehttp 157 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-09 22:30:52,695 basehttp 157 "POST /user/login/ HTTP/1.1" 200 222
+INFO 2020-07-09 22:30:52,926 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-09 22:30:52,927 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:30:52,927 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-09 22:30:53,017 basehttp 157 "GET /media/banner/02_cS3rhVF.png HTTP/1.1" 200 364808
+INFO 2020-07-09 22:30:53,033 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 200 745382
+INFO 2020-07-09 22:30:53,034 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 200 737783
