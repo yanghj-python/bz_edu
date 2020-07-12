@@ -665,3 +665,160 @@ INFO 2020-07-09 22:30:52,927 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
 INFO 2020-07-09 22:30:53,017 basehttp 157 "GET /media/banner/02_cS3rhVF.png HTTP/1.1" 200 364808
 INFO 2020-07-09 22:30:53,033 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 200 745382
 INFO 2020-07-09 22:30:53,034 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 200 737783
+INFO 2020-07-11 19:28:13,735 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-11 19:31:55,760 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-11 19:31:55,776 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-11 19:31:55,803 basehttp 157 "GET /media/banner/02_cS3rhVF.png HTTP/1.1" 304 0
+INFO 2020-07-11 19:31:55,811 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 304 0
+INFO 2020-07-11 19:31:55,823 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 304 0
+INFO 2020-07-11 19:31:55,939 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-11 19:31:55,993 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-11 19:31:56,014 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-11 19:31:56,021 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-11 19:33:33,054 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-11 19:33:33,071 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-11 19:33:33,107 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+WARNING 2020-07-12 11:51:16,997 log 228 Bad Request: /user/mobile/13393870092
+WARNING 2020-07-12 11:51:16,997 basehttp 157 "GET /user/mobile/13393870092 HTTP/1.1" 400 38
+INFO 2020-07-12 11:51:30,713 basehttp 157 "GET /user/mobile/15937664487 HTTP/1.1" 200 16
+ERROR 2020-07-12 11:51:41,184 exceptions 18 <user.views.SendMessageAPIView object at 0x0000021251020848> GET Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2020-07-12 11:51:41,187 log 228 Internal Server Error: /user/sms/15937664487
+ERROR 2020-07-12 11:51:41,188 basehttp 157 "GET /user/sms/15937664487 HTTP/1.1" 500 56
+ERROR 2020-07-12 11:51:48,060 exceptions 18 <user.views.SendMessageAPIView object at 0x0000021251E5DAC8> GET Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2020-07-12 11:51:48,061 log 228 Internal Server Error: /user/sms/15937664487
+ERROR 2020-07-12 11:51:48,062 basehttp 157 "GET /user/sms/15937664487 HTTP/1.1" 500 56
+INFO 2020-07-12 11:54:55,407 basehttp 157 "GET /user/mobile/15937664487 HTTP/1.1" 200 16
+ERROR 2020-07-12 11:55:02,893 exceptions 18 <user.views.SendMessageAPIView object at 0x0000021252033048> GET Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2020-07-12 11:55:02,893 log 228 Internal Server Error: /user/sms/15937664487
+ERROR 2020-07-12 11:55:02,895 basehttp 157 "GET /user/sms/15937664487 HTTP/1.1" 500 56
+INFO 2020-07-12 12:06:47,402 basehttp 157 "GET /user/mobile/15937664487 HTTP/1.1" 200 16
+INFO 2020-07-12 12:08:16,074 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\utils\send_msg.py changed, reloading.
+INFO 2020-07-12 12:08:37,737 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-12 12:10:16,929 basehttp 157 "GET /user/sms/15937664487 HTTP/1.1" 200 32
+INFO 2020-07-12 12:11:45,090 basehttp 157 "GET /user/sms/15937664487 HTTP/1.1" 200 32
+INFO 2020-07-12 12:13:22,503 basehttp 157 "GET /user/mobile/18613744985 HTTP/1.1" 200 16
+INFO 2020-07-12 12:13:27,343 basehttp 157 "GET /user/sms/18613744985 HTTP/1.1" 200 32
+INFO 2020-07-12 12:23:17,291 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\utils\send_msg.py changed, reloading.
+INFO 2020-07-12 12:23:24,118 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-12 12:39:02,565 basehttp 157 "GET /user/mobile/18613744985 HTTP/1.1" 200 16
+INFO 2020-07-12 12:39:10,934 basehttp 157 "GET /user/sms/18613744985 HTTP/1.1" 200 32
+WARNING 2020-07-12 12:39:35,631 log 228 Bad Request: /user/sms/18613744985
+WARNING 2020-07-12 12:39:35,631 basehttp 157 "GET /user/sms/18613744985 HTTP/1.1" 400 51
+WARNING 2020-07-12 12:39:40,050 log 228 Bad Request: /user/sms/18613744985
+WARNING 2020-07-12 12:39:40,051 basehttp 157 "GET /user/sms/18613744985 HTTP/1.1" 400 51
+INFO 2020-07-12 12:40:12,907 basehttp 157 "GET /user/sms/18613744985 HTTP/1.1" 200 32
+INFO 2020-07-12 12:44:21,271 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\utils\send_msg.py changed, reloading.
+INFO 2020-07-12 12:44:36,842 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-12 12:45:52,813 basehttp 157 "GET /user/mobile/18613744985 HTTP/1.1" 200 16
+INFO 2020-07-12 12:45:57,396 basehttp 157 "GET /user/sms/18613744985 HTTP/1.1" 200 32
+INFO 2020-07-12 12:46:16,315 basehttp 157 "OPTIONS /user/register/ HTTP/1.1" 200 0
+INFO 2020-07-12 12:46:16,946 basehttp 157 "POST /user/register/ HTTP/1.1" 201 213
+INFO 2020-07-12 12:46:19,477 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-12 12:46:19,497 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-12 12:46:19,501 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-12 12:46:19,808 basehttp 157 "GET /media/banner/02_cS3rhVF.png HTTP/1.1" 200 364808
+INFO 2020-07-12 12:46:19,833 basehttp 157 "GET /media/banner/01_Vggz1hd.png HTTP/1.1" 200 737783
+INFO 2020-07-12 12:46:19,866 basehttp 157 "GET /media/banner/03_KAD2l21.png HTTP/1.1" 200 745382
+INFO 2020-07-12 12:47:05,909 basehttp 157 "GET /user/captcha/?username=18613744985 HTTP/1.1" 200 140
+INFO 2020-07-12 12:47:16,125 basehttp 157 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-12 12:47:16,139 basehttp 157 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-12 12:47:16,152 basehttp 157 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-12 12:47:16,488 basehttp 157 "POST /user/login/ HTTP/1.1" 200 218
+INFO 2020-07-12 12:47:16,553 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-12 12:47:16,555 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-12 12:47:16,598 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+WARNING 2020-07-12 13:07:27,676 log 228 Bad Request: /user/mobile/74985
+WARNING 2020-07-12 13:07:27,677 basehttp 157 "GET /user/mobile/74985 HTTP/1.1" 400 38
+WARNING 2020-07-12 13:07:37,735 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:07:37,736 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+WARNING 2020-07-12 13:10:37,760 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:10:37,761 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+WARNING 2020-07-12 13:10:42,401 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:10:42,402 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+WARNING 2020-07-12 13:10:49,981 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:10:49,983 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+WARNING 2020-07-12 13:11:03,212 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:11:03,214 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+WARNING 2020-07-12 13:11:22,400 log 228 Bad Request: /user/mobile/7888
+WARNING 2020-07-12 13:11:22,402 basehttp 157 "GET /user/mobile/7888 HTTP/1.1" 400 38
+WARNING 2020-07-12 13:11:42,159 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:11:42,160 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+INFO 2020-07-12 13:17:43,890 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\apps\user\views.py changed, reloading.
+INFO 2020-07-12 13:17:59,226 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-12 13:18:04,985 log 228 Bad Request: /user/mobile/2134
+WARNING 2020-07-12 13:18:04,987 basehttp 157 "GET /user/mobile/2134 HTTP/1.1" 400 38
+WARNING 2020-07-12 13:18:12,547 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:18:12,549 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+WARNING 2020-07-12 13:18:21,931 log 228 Bad Request: /user/mobile/12145
+WARNING 2020-07-12 13:18:21,932 basehttp 157 "GET /user/mobile/12145 HTTP/1.1" 400 38
+WARNING 2020-07-12 13:18:27,139 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:18:27,140 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+INFO 2020-07-12 13:21:28,637 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\apps\user\views.py changed, reloading.
+INFO 2020-07-12 13:21:31,667 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-12 13:21:32,770 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:21:32,771 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+WARNING 2020-07-12 13:21:39,252 log 228 Bad Request: /user/mobile/4884
+WARNING 2020-07-12 13:21:39,253 basehttp 157 "GET /user/mobile/4884 HTTP/1.1" 400 38
+INFO 2020-07-12 13:22:17,645 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\apps\user\views.py changed, reloading.
+INFO 2020-07-12 13:22:20,904 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-12 13:22:23,202 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:22:23,204 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+WARNING 2020-07-12 13:22:52,921 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:22:52,922 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+INFO 2020-07-12 13:23:12,206 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-12 13:23:20,878 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:23:20,880 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+INFO 2020-07-12 13:23:45,397 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-12 13:24:16,544 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\apps\user\views.py changed, reloading.
+INFO 2020-07-12 13:24:19,526 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-12 13:24:22,108 log 228 Bad Request: /user/mobile/755
+WARNING 2020-07-12 13:24:22,109 basehttp 157 "GET /user/mobile/755 HTTP/1.1" 400 38
+WARNING 2020-07-12 13:24:45,783 log 228 Bad Request: /user/mobile/121436
+WARNING 2020-07-12 13:24:45,785 basehttp 157 "GET /user/mobile/121436 HTTP/1.1" 400 38
+WARNING 2020-07-12 13:25:17,824 log 228 Bad Request: /user/mobile/18613744985
+WARNING 2020-07-12 13:25:17,826 basehttp 157 "GET /user/mobile/18613744985 HTTP/1.1" 400 38
+WARNING 2020-07-12 13:25:25,742 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:25:25,743 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+INFO 2020-07-12 13:25:56,151 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\apps\user\views.py changed, reloading.
+INFO 2020-07-12 13:26:15,544 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-12 13:26:29,291 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:26:29,292 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+WARNING 2020-07-12 13:26:39,915 log 228 Bad Request: /user/mobile/1232435
+WARNING 2020-07-12 13:26:39,916 basehttp 157 "GET /user/mobile/1232435 HTTP/1.1" 400 38
+INFO 2020-07-12 13:28:06,493 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\apps\user\views.py changed, reloading.
+INFO 2020-07-12 13:28:09,154 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-12 13:28:10,036 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:28:10,038 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+WARNING 2020-07-12 13:28:14,933 log 228 Not Found: /user/mobile/
+WARNING 2020-07-12 13:28:14,934 basehttp 157 "GET /user/mobile/ HTTP/1.1" 404 3034
+INFO 2020-07-12 13:28:37,345 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\apps\user\views.py changed, reloading.
+INFO 2020-07-12 13:28:40,363 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-12 13:35:21,490 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\utils\send_msg.py changed, reloading.
+INFO 2020-07-12 13:35:24,396 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-12 13:36:21,222 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\settings\constants.py changed, reloading.
+INFO 2020-07-12 13:36:24,861 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-12 13:36:45,804 basehttp 157 "GET /user/mobile/15670861759 HTTP/1.1" 200 16
+INFO 2020-07-12 13:36:59,715 basehttp 157 "GET /user/sms/15670861759 HTTP/1.1" 200 32
+INFO 2020-07-12 13:37:18,210 basehttp 157 "POST /user/register/ HTTP/1.1" 201 213
+INFO 2020-07-12 13:37:20,274 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-12 13:37:20,293 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-12 13:37:20,449 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-12 14:26:42,346 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\apps\user\serializers.py changed, reloading.
+INFO 2020-07-12 14:26:53,340 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-12 14:35:23,183 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\apps\user\serializers.py changed, reloading.
+INFO 2020-07-12 14:35:31,754 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-12 14:53:30,062 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\apps\user\serializers.py changed, reloading.
+INFO 2020-07-12 14:53:43,211 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-12 14:54:25,520 basehttp 157 "GET /user/mobile/13193881673 HTTP/1.1" 200 16
+INFO 2020-07-12 14:54:35,327 basehttp 157 "GET /user/sms/13193881673 HTTP/1.1" 200 32
+INFO 2020-07-12 14:54:56,983 basehttp 157 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2020-07-12 14:54:57,071 log 228 Bad Request: /user/register/
+WARNING 2020-07-12 14:54:57,072 basehttp 157 "POST /user/register/ HTTP/1.1" 400 43
+WARNING 2020-07-12 14:55:02,884 log 228 Bad Request: /user/register/
+WARNING 2020-07-12 14:55:02,885 basehttp 157 "POST /user/register/ HTTP/1.1" 400 43
+INFO 2020-07-12 14:55:10,952 basehttp 157 "POST /user/register/ HTTP/1.1" 201 213
+INFO 2020-07-12 14:55:12,914 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 277
+INFO 2020-07-12 14:55:12,934 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-12 14:55:12,957 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 758
+INFO 2020-07-12 15:00:50,105 autoreload 222 C:\Users\杨洪举\PycharmProjects\bz\bz_edu\bz_edu\apps\user\views.py changed, reloading.
+INFO 2020-07-12 15:00:56,118 autoreload 598 Watching for file changes with StatReloader
