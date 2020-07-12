@@ -10,10 +10,9 @@
 <script>
     export default {
         name: "Banner",
-        // 获取轮播图的数据
         data(){
             return{
-                banner_list:[], // 轮播图的数据
+                banner_list:[],
             }
         },
         methods:{
@@ -22,7 +21,6 @@
                     url:'http://127.0.0.1:9001/home/banner/',
                     method: "get",
                 }).then(res=>{
-                    // 当前请求的返回值可以通过res接受到
                     console.log(res.data);
                     this.banner_list = res.data;
                 }).catch(error=>{
@@ -30,9 +28,7 @@
                 })
             },
         },
-        // 在当前页面渲染之前将数据获取并赋值给 data
         created() {
-            // 获取轮播图数据
             this.get_all_banner();
         }
     }

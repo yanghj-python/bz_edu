@@ -30,15 +30,14 @@
                 mobile: "",
                 password: "",
                 code: "",
-                sms_text: "请输入验证码", // 提示语
-                sms_flag: false,    // 能否再次发送短信
+                sms_text: "发送验证码",
+                sms_flag: false,
             }
         },
         methods: {
-            // 向后台发起请求 注册用户
             user_register() {
                 this.$axios({
-                    url: this.$settings.HOST + "user/register/",
+                    url: 'http://127.0.0.1:9001/user/register/',
                     method: "post",
                     data: {
                         phone: this.mobile,
@@ -47,9 +46,6 @@
                     }
                 }).then(response => {
                     console.log(response.data);
-
-
-                    // 保存用户信息完成注册后 自动登录
                     localStorage.removeItem("user_token");
                     localStorage.removeItem("user_id");
                     localStorage.removeItem("username");
@@ -61,7 +57,6 @@
                     let _this = this;
                     this.$alert("注册成功", "百知教育", {
                         callback() {
-                            // 注册成功  可以跳转至登录|主页
                             _this.$router.push("/");
                         }
                     })
@@ -72,27 +67,23 @@
                 })
             },
 
-            // 检测手机号是否唯一
             checkMobile() {
                 this.$axios({
-                    url: this.$settings.HOST + "user/mobile/" + `${this.mobile}`,
+                    url: 'http://127.0.0.1:9001/user/mobile/' + `${this.mobile}`,
                     method: "get",
                 }).catch(error => {
                     this.$message.error(error.response.data)
                 })
             },
 
-            // 为手机号获取验证码
             get_code() {
-
-                // 验证手机号格式
                 if (!/1[35689]\d{9}/.test(this.mobile)) {
                     this.$alert("手机号格式有误", "警告");
                     return false
                 }
 
                 this.$axios({
-                    url: this.$settings.HOST + "user/sms/" + `${this.mobile}`,
+                    url: 'http://127.0.0.1:9001/user/sms/' + `${this.mobile}`,
                     method: "get",
                 }).then(response => {
                     console.log(response.data);

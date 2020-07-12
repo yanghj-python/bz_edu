@@ -27,7 +27,7 @@
                     <div class="login-box full-left">
                         <router-link to="/home/login/">登录</router-link>
                         &nbsp;|&nbsp;
-                        <span>注册</span>
+                        <router-link to="/user/register/">立即注册</router-link>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,6 @@
                     url:'http://127.0.0.1:9001/home/nav/',
                     method: "get",
                 }).then(res=>{
-                    // 当前请求的返回值可以通过res接受到
                     console.log(res.data);
                     this.nav_list = res.data;
                 }).catch(error=>{
@@ -66,9 +65,7 @@
                 this.$router.push("/home/login");
             }
         },
-        // 在当前页面渲染之前将数据获取并赋值给 data
         created() {
-            // 获取轮播图数据
             this.get_all_nav();
             this.get_token();
 

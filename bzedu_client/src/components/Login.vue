@@ -24,7 +24,7 @@
                     </div>
                     <button class="login_btn btn btn-primary" @click="get_captcha">登录</button>
                     <p class="go_login">没有账号
-                        <span>立即注册</span>
+                        <router-link to="/user/register/">立即注册</router-link>
                     </p>
                 </div>
                 <div class="inp" v-show="">
@@ -52,9 +52,7 @@
             }
         },
         methods: {
-            // 点击登录时  弹出验证码框 当验证码成功验证后  才可以发起登录请求
             get_captcha() {
-                // 向API服务端发起请求获取验证码
                 this.$axios({
                     url: 'http://127.0.0.1:9001/user/captcha/',
                     method: 'get',
@@ -66,8 +64,8 @@
                     initGeetest({
                         gt: data.gt,
                         challenge: data.challenge,
-                        product: "popup", // 产品形式，包括：float，embed，popup。注意只对PC版验证码有效
-                        offline: !data.success, // 表示用户后台检测极验服务器是否宕机，一般不需要关注
+                        product: "popup",
+                        offline: !data.success,
                         new_captcha: data.new_captcha
                     }, this.handlerPopup);
 
@@ -76,9 +74,7 @@
                     this.$message.error("用户名或密码错误");
                 })
             },
-            // 请求验证码的回调函数  完成验证码的验证
             handlerPopup(captchaObj) {
-                // 回调函数中 this指向会被改变成 所以重新赋值
                 let self = this;
                 captchaObj.onSuccess(function () {
                     let validate = captchaObj.getValidate();
@@ -100,12 +96,9 @@
                         console.log(error);
                     });
                 });
-                //  将生成的验证码添加到 id为geetest1的div中
                 document.getElementById("geetest1").innerHTML = "";
                 captchaObj.appendTo("#geetest1");
             },
-
-            // 用户登录的方法
             user_login() {
                 this.$axios({
                     url: 'http://127.0.0.1:9001/user/login/',
